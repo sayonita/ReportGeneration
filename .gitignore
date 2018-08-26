@@ -5,3 +5,5 @@ invaliddata.txt
 .project
 .settings/*
 bin/*
+.idea/*
+*.iml
