@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Sample Test Suit" verbose="1" parallel="false">
+
+ <listeners>
+        <listener class-name="Listeners.TestListener"/>
+        <listener class-name="Listeners.AnnotationTransformer"/>
+    </listeners>
+    
+  <test name="Test Suite 1" preserve-order="true" verbose="2" >
+    <classes>
+           <class name="xml.readData" />
+    </classes>
+  </test>
+  
+ <!-- test name="Test Suite 2" preserve-order="true" verbose="2" >
+    <classes>
+           <class name="com.softhinkers.script.sanitysuite.SampleTest2" />
+    </classes>
+  </test-->
+  
+   
+</suite>
