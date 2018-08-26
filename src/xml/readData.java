@@ -78,7 +78,7 @@ protected static String getString(String tagname) throws ParserConfigurationExce
 	@Test(priority=4,description="call parent node")	
 	public void chck() throws SAXException, IOException, ParserConfigurationException
 	{
-		ExtentTestManager.getTest().setDescription("calling the parent node method");;
+		//ExtentTestManager.getTest().setDescription("calling the parent node method");;
 		String node=check_parent_node("company") ;
 	}
 }
