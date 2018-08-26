@@ -1,0 +1,7 @@
+test-output/*
+validdata.txt
+invaliddata.txt
+.classpath
+.project
+.settings/*
+bin/*
