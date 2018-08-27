@@ -1,0 +1,25 @@
+<root>
+    <name>
+        <screen>abcd</screen>
+        <screen-color>black</screen-color>
+        <errorCode>0</errorCode>
+    </name>
+
+    <name>
+        <screen>medium</screen>
+        <screen-color>black</screen-color>
+        <errorCode>0</errorCode>
+    </name>
+
+    <name>
+        <screen>large</screen>
+        <screen-color>black</screen-color>
+        <errorCode>0</errorCode>
+    </name>
+
+    <name>
+        <screen>extra-large</screen>
+        <screen-color>black</screen-color>
+        <errorCode>10</errorCode>
+    </name>
+</root>
