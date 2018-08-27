@@ -7,3 +7,4 @@ invaliddata.txt
 bin/*
 .idea/*
 *.iml
+target/*
