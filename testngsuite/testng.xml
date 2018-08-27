@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+  
+<suite name="Sample Test Suit" verbose="1" parallel="false">
+
+ <listeners>
+        <listener class-name="listeners.TestListener"/>
+        <listener class-name="listeners.AnnotationTransformer"/>
+    </listeners>
+    
+  <test name="Test Suite 1" verbose="2" >
+    <classes>
+           <class name="testsample.Sample" />
+    </classes>
+  </test>
+
+</suite>
